@@ -15,10 +15,10 @@ function Toolstack() {
         <img src={vsCode} alt="vsCode" className="tech-icon-images" />
         <div className="tech-icons-text">VS Code</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons ">
+      {/* <Col xs={4} md={2} className="tech-icons ">
         <SiPycharm fontSize={"24px"} />
         <div className="tech-icons-text">PyCharm</div>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons ">
         <img src={chrome} alt="Chrome" className="tech-icon-images" />
         <div className="tech-icons-text">Chrome</div>

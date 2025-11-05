@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import newsWebsite from "../../Assets/Projects/newsWebsite.png";
+import recipyFinder from "../../Assets/Projects/recipyFinder.png";
 
 function Projects() {
   return (
@@ -34,12 +36,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={newsWebsite}
               isBlog={false}
-              title="Advanced News Platform"
+              title="News Website"
               description="Full-stack MERN news platform with React + Node.js, featuring JWT authentication, role-based protected routes, nested comments, reading analytics dashboard, gamification with badges and streaks, and performance optimizations with code splitting."
               ghLink="https://github.com/uday-0408/newswebsite"
-              // demoLink="https://news-platform-uday.vercel.app/"
+              demoLink="https://news-app-front-end-delta.vercel.app/"
             />
           </Col>
 
@@ -47,10 +49,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Python CodeCompiler Backend"
-              description="Core Python utilities and components for the CodeCompiler ecosystem. Includes FastAPI/Django integration for secure multi-language compilation, automated test-case evaluation, submission record storage, and real-time feedback systems."
-              ghLink="https://github.com/uday-0408/py_2"
-              // demoLink=""              
+              title="Job Connect - Full Stack Job Portal"
+              description="Modern MERN job portal connecting students with recruiters. Features role-based JWT authentication, company/job management, one-click applications, resume uploads via Cloudinary, Redux Toolkit state management, and recruiter dashboard for managing applicants."
+              ghLink="https://github.com/uday-0408/JP"
+              // demoLink="https://job-connect-uday.vercel.app/"              
             />
           </Col>
 
@@ -78,12 +80,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={recipyFinder}
               isBlog={false}
               title="Recipe Finder"
               description="Quick searchable recipe discovery app that helps users find recipes by ingredient, cuisine, or dietary preference. Features search functionality, dietary filters (vegetarian, vegan, gluten-free), recipe details with nutrition info, and favorite recipes management."
               ghLink="https://github.com/uday-0408/Recipe_finder"
-              // demoLink="https://recipe-finder-uday.vercel.app/"
+              demoLink="https://recipe-finder-frontend-sooty.vercel.app/"
             />
           </Col>
         </Row>
