@@ -8,15 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I'm <span className="purple">Uday Ramkyash Chauhan</span>{" "}
+            from <span className="purple">Gujarat, India</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            I'm currently a{" "}
+            <span className="purple">Computer Engineering Student</span> at{" "}
+            <span className="purple">LJIET (L.J. Institute of Engineering and Technology)</span>.
+            <br />I'm passionate about{" "}
+            <span className="purple">Full Stack Development</span> with expertise in{" "}
+            <span className="purple">Python Frameworks and React</span>.
             <br />
             <br />
             Outside of coding, I love engaging in activities that keep me
@@ -25,20 +25,20 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Building Innovative Projects 🚀
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Learning New Technologies 💻
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Contributing to Open Source �
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Code with passion, build with purpose!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Uday</footer>
         </blockquote>
       </Card.Body>
     </Card>

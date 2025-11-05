@@ -13,17 +13,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I'm a passionate Computer Engineering student at LJIET who loves 
+              building scalable web applications and exploring new technologies. 
+              I have a strong foundation in full-stack development with a focus 
+              on Python backend frameworks and modern frontend technologies.
               <br />
               <br />
               I’m proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Python, JavaScript, Django, FastAPI, Flask, and React.js{" "}
                 </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
@@ -33,17 +33,18 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications, REST APIs,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and exploring new ways to create efficient and user-friendly solutions.
               <br />
               <br />
               Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              <b className="purple"> Python frameworks </b> like{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">Django</b> and{" "}
+                <b className="purple">FastAPI</b>, combined with{" "}
+                <b className="purple">React.js</b> on the frontend.
               </i>
             </p>
           </Col>

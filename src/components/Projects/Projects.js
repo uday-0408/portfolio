@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="BrowserCompiler"
+              description="Multi-language online code execution platform with Monaco editor, supporting Python, C, C++, and Java. Features secure sandboxed execution using Docker, FastAPI-based execution microservice, problem management, and automated test-case validation with submission history tracking."
+              ghLink="https://github.com/Uday175409/BrowserCompiler"
+              // demoLink="https://browsercompiler-demo.vercel.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Advanced News Platform"
+              description="Full-stack MERN news platform with React + Node.js, featuring JWT authentication, role-based protected routes, nested comments, reading analytics dashboard, gamification with badges and streaks, and performance optimizations with code splitting."
+              ghLink="https://github.com/uday-0408/newswebsite"
+              // demoLink="https://news-platform-uday.vercel.app/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Python CodeCompiler Backend"
+              description="Core Python utilities and components for the CodeCompiler ecosystem. Includes FastAPI/Django integration for secure multi-language compilation, automated test-case evaluation, submission record storage, and real-time feedback systems."
+              ghLink="https://github.com/uday-0408/py_2"
+              // demoLink=""              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="GadgetHub E-Commerce"
+              description="Responsive static e-commerce site showcasing product listings and details with modern UI components. Features client-side filtering, interactive product cards, mobile-first design, and enhanced accessibility practices for optimal browsing experience."
+              ghLink="https://github.com/uday-0408/GadgetHub"
+              // demoLink="https://uday-0408.github.io/GadgetHub/"
             />
           </Col>
 
@@ -69,10 +69,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Car Dealership Website"
+              description="Static showroom website featuring car inventory with search/filter functionality and detailed vehicle pages. Demonstrates responsive grid systems, accessible markup, cross-device compatibility, and production-like frontend development practices."
+              ghLink="https://github.com/uday-0408/Car-dealership"
+              // demoLink="https://uday-0408.github.io/Car-dealership/"
             />
           </Col>
 
@@ -80,11 +80,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Recipe Finder"
+              description="Quick searchable recipe discovery app that helps users find recipes by ingredient, cuisine, or dietary preference. Features search functionality, dietary filters (vegetarian, vegan, gluten-free), recipe details with nutrition info, and favorite recipes management."
+              ghLink="https://github.com/uday-0408/Recipe_finder"
+              // demoLink="https://recipe-finder-uday.vercel.app/"
             />
           </Col>
         </Row>
